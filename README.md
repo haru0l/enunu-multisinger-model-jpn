@@ -1,5 +1,5 @@
-# enunu-multimodel
-Multimodel (mixed model) used for ENUNU model pretraining
+# enunu-multimodel-jpn
+Japanese multimodel (mixed model) used for ENUNU model pretraining
 
 This is a multimodel released ONLY to be used for pretraining. You may NOT use the model in any other use cases.
 You may use the pretrained model for your model, as long as you include the text in the CREDITS.txt file in your trained model.
