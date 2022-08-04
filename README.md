@@ -1,10 +1,19 @@
 # enunu-multimodel-jpn
 Japanese multimodel (mixed model) used for ENUNU model pretraining
 
-This is a multimodel released ONLY to be used for pretraining. You may NOT use the model in any other use cases.
-You may use the pretrained model for your model, as long as you include the text in the CREDITS.txt file in your trained model.
 The data used for training this will NOT be shared to the public.
 
-This multimodel uses partially the databases of Namine Ritsu AI (波音リツAI), Amaboshi Cipher AI (雨星サイファAI), PIX AI, Amano Naoki AI (天野なおきAI), and Deshimaru Gakuto AI (学人デシマルAI)
+This model is using the HED and dictionary provided by DYVAUX to give a variety of flags to the user.
 
-Special thanks to カノン (@canon_73), ちかの (@chikano1582), UtaUtaUtau (@C5G4D4A3), PixPrucer(@PixPrucer) and xuu (@uchuuzentai) for lending their database to be used.
+The settings used are as follows:
+
+v1.0
+Timelag: FFN, 64 hidden_dim, 4 layers.
+Duration: LSTMRNN, 64 hidden_dim, 4 layers.
+Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
+
+To use this model for pretrained model, point to the folder inside the exp folder.
+
+Please note that you may NOT use this model in circumstances other than pretraining for NNSVS (You shouldn't anyway, as the databases used are not at their full length).
+
+Special thanks to UtaUtaUtau, PixPrucer, xuu, ryu, カノン, ちかの, and PumpkinVA for providing and agreeing to contribute their singing databases into this model.
