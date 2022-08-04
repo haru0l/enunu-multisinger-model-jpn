@@ -17,3 +17,5 @@ To use this model for pretrained model, point to the folder inside the exp folde
 Please note that you may NOT use this model in circumstances other than pretraining for NNSVS (You shouldn't anyway, as the databases used are not at their full length).
 
 Special thanks to UtaUtaUtau, PixPrucer, xuu, ryu, カノン, ちかの, and PumpkinVA for providing and agreeing to contribute their singing databases into this model, along with Nekro for providing Colab Pro to train on.
+
+Please follow the instructions in the README.txt file if you wish to release a public model using this pretrained model.
