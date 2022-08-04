@@ -7,7 +7,7 @@ This model is using the HED and dictionary provided by DYVAUX to give a variety 
 
 The settings used are as follows:
 
-v1.0
+v1.0:
 Timelag: FFN, 64 hidden_dim, 4 layers.
 Duration: LSTMRNN, 64 hidden_dim, 4 layers.
 Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
