@@ -1,5 +1,5 @@
 # enunu-multimodel-jpn
-Japanese multimodel (mixed model) used for ENUNU model pretraining
+Japanese multisinger model (mixed singers model) used for ENUNU model pretraining
 
 The data used for training this will NOT be shared to the public.
 
