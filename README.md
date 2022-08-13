@@ -7,28 +7,28 @@ This model is using the HED and dictionary provided by UPT3 to give a variety of
 
 ## Training settings
 
->Conv1DResNet Standard (flagged version):
-Timelag: FFN, 64 hidden_dim, 4 layers.
+Conv1DResNet Standard (flagged version):
+>Timelag: FFN, 64 hidden_dim, 4 layers.
 Duration: LSTMRNN, 64 hidden_dim, 4 layers.
 Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet Standard (flagless version):
-Timelag: FFN, 64 hidden_dim, 4 layers.
+>Timelag: FFN, 64 hidden_dim, 4 layers.
 Duration: LSTMRNN, 64 hidden_dim, 4 layers.
 Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet Standard + Diff-based vibrato (flagged version):
-Timelag: MDNv2, 32 hidden_dim, 3 layers.
+>Timelag: MDNv2, 32 hidden_dim, 3 layers.
 Duration: MDNv2, 256 hidden_dim, 3 layers.
 Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet Standard + Diff-based vibrato (flagless version):
-Timelag: MDNv2, 32 hidden_dim, 3 layers.
+>Timelag: MDNv2, 32 hidden_dim, 3 layers.
 Duration: MDNv2, 256 hidden_dim, 3 layers.
 Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet Standard + Diff-based vibrato v2:
-Timelag: MDNv2, 32 hidden_dim, 3 layers.
+>Timelag: MDNv2, 32 hidden_dim, 3 layers.
 Duration: MDNv2, 256 hidden_dim, 3 layers.
 Acoustics: Conv1dResnet, 512 hidden_dim, 6 layers.
 
