@@ -27,7 +27,7 @@ Conv1DResNet Standard + Diff-based vibrato (flagless version):
 >Duration: MDNv2, 256 hidden_dim, 3 layers.
 >Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
-Conv1DResNet Standard + Diff-based vibrato v2:
+Conv1DResNet Standard + Diff-based vibrato (flagged test version):
 >Timelag: MDNv2, 32 hidden_dim, 3 layers.
 >Duration: MDNv2, 256 hidden_dim, 3 layers.
 >Acoustics: Conv1dResnet, 512 hidden_dim, 6 layers.
