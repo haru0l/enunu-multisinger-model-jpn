@@ -8,29 +8,29 @@ This model is using the HED and dictionary provided by UPT3 to give a variety of
 ## Training settings
 
 Conv1DResNet (flagged version):
->Timelag: FFN, 64 hidden_dim, 4 layers.
->Duration: LSTMRNN, 64 hidden_dim, 4 layers.
->Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
+>* Timelag: FFN, 64 hidden_dim, 4 layers.
+>* Duration: LSTMRNN, 64 hidden_dim, 4 layers.
+>* Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet (flagless version):
->Timelag: FFN, 64 hidden_dim, 4 layers.
->Duration: LSTMRNN, 64 hidden_dim, 4 layers.
->Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
+>* Timelag: FFN, 64 hidden_dim, 4 layers.
+>* Duration: LSTMRNN, 64 hidden_dim, 4 layers.
+>* Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet + Diff-based vibrato (flagged version):
->Timelag: MDNv2, 32 hidden_dim, 3 layers.
->Duration: MDNv2, 256 hidden_dim, 3 layers.
->Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
+>* Timelag: MDNv2, 32 hidden_dim, 3 layers.
+>* Duration: MDNv2, 256 hidden_dim, 3 layers.
+>* Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet + Diff-based vibrato (flagless version):
->Timelag: MDNv2, 32 hidden_dim, 3 layers.
->Duration: MDNv2, 256 hidden_dim, 3 layers.
->Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
+>* Timelag: MDNv2, 32 hidden_dim, 3 layers.
+>* Duration: MDNv2, 256 hidden_dim, 3 layers.
+>* Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
 
 Conv1DResNet + Diff-based vibrato (flagged test version):
->Timelag: MDNv2, 32 hidden_dim, 3 layers.
->Duration: MDNv2, 256 hidden_dim, 3 layers.
->Acoustics: Conv1dResnet, 512 hidden_dim, 6 layers.
+>* Timelag: MDNv2, 32 hidden_dim, 3 layers.
+>* Duration: MDNv2, 256 hidden_dim, 3 layers.
+>* Acoustics: Conv1dResnet, 512 hidden_dim, 6 layers.
 
 ## Difference between flagged version and flagless version
 The differences are that the flagged version is better suited to model that contains flags for extra vocal types, while flagless is intended for models that are flagless or contains no extra vocal types in the database.
