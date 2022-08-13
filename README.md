@@ -36,7 +36,8 @@ Acoustics: Conv1dResnet, 512 hidden_dim, 6 layers.
 The differences are that the flagged version is better suited to model that contains flags for extra vocal types, while flagless is intended for models that are flagless or contains no extra vocal types in the database.
 
 ## How to use
-To use this model for pretrained model, point to the folder inside the exp folder (example: {model_location}/exp/unnamed_CeVOX_Cantano_Al_Kit).
+To use this model for pretrained model, point to the folder inside the exp folder
+(example: {model_location}/exp/unnamed_CeVOX_Cantano_Al_Kit).
 
 ## Disclaimer
 Please note that you may NOT use this model in circumstances other than pretraining for NNSVS (You shouldn't anyway, as the databases used are not at their full length).
