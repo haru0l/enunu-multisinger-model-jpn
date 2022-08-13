@@ -1,9 +1,9 @@
 # ENUNU Multisinger Model (Japanese)
 Japanese multisinger model (mixed singers model) used for ENUNU model pretraining.
 
-The data used for training this will NOT be shared to the public.
+The data used for training this will **NOT** be shared to the public.
 
-This model is using the HED and dictionary provided by UPT3 to give a variety of flags to the user.
+This model is using the HED and dictionary provided by [UPT3] to give a variety of flags to the user.
 
 ## Training settings
 
@@ -37,12 +37,15 @@ The differences are that the flagged version is better suited to model that cont
 
 ## How to use
 To use this model for pretrained model, point to the folder inside the exp folder
-(example: {model_location}/exp/unnamed_CeVOX_Cantano_Al_Kit).
+
+Example: `{model_name}/exp/unnamed_CeVOX_Cantano_Al_Kit`
 
 ## Disclaimer
-Please note that you may NOT use this model in circumstances other than pretraining for NNSVS (You shouldn't anyway, as the databases used are not at their full length).
-Please follow the instructions in the README.txt file if you wish to release a public model using this pretrained model.
-You might not want to pretrain the timelag and duration models using the default settings if you are using the MDN model type for duration and timelag. It seems that this breaks training.
+* Please note that you may NOT use this model in circumstances other than pretraining for NNSVS (You shouldn't anyway, as the databases used are not at their full length).
+* Please follow the instructions in the README.txt file if you wish to release a public model using this pretrained model.
+* You might not want to pretrain the timelag and duration models using the default settings if you are using the MDN model type for duration and timelag. It seems that this breaks training.
 
 ## Special thanks
 Special thanks to UtaUtaUtau, PixPrucer, xuu, ryu, カノン, ちかの, and PumpkinVA for providing and agreeing to contribute their singing databases into this model, along with Nekro for providing Colab Pro to train on.
+
+[UPT3]: https://github.com/UPT3/nnsvs-japnese-plus
