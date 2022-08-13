@@ -7,7 +7,7 @@ This model is using the HED and dictionary provided by UPT3 to give a variety of
 
 ## Training settings
 
-Conv1DResNet Standard (flagged version):
+>Conv1DResNet Standard (flagged version):
 Timelag: FFN, 64 hidden_dim, 4 layers.
 Duration: LSTMRNN, 64 hidden_dim, 4 layers.
 Acoustics: Conv1dResnet, 256 hidden_dim, 6 layers.
